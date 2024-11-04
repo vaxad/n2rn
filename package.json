@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "n2rn",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A package for converting next project to react native(expo) [wip]",
   "main": "dist/index.js", 
   "files": [
@@ -9,11 +9,15 @@
   ],
   "scripts": {
     "build": "babel src --out-dir dist",  
-    "prepublishOnly": "npm run build" 
+    "prepublishOnly": "npm run build",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/vaxad/n2rn"
+  },
+  "bin": {
+    "n2rn": "./src/index.js"
   },
   "keywords": ["example", "npm", "package"],
   "author": "vaxad",

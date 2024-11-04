@@ -17,20 +17,10 @@
 - Expo CLI (`npx expo-cli`)
 - An existing Next.js project
 
-## Installation
-
-To install, clone this repository and install dependencies.
-
-```bash
-git clone <repository-url>
-cd n2rn
-npm install
-```
-
 ## Usage
 
 ```bash
-node convert.js <next_path> <expo_project_name>
+npx n2rn <next_path> <expo_project_name>
 ```
 
 - `<next_path>`: Path to your Next.js project.
@@ -39,7 +29,7 @@ node convert.js <next_path> <expo_project_name>
 ### Example
 
 ```bash
-node convert.js ../my-nextjs-app MyExpoApp
+npx n2rn ../my-nextjs-app MyExpoApp
 ```
 
 This will create an Expo project called `MyExpoApp` in the current directory.
