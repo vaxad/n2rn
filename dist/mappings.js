@@ -1,5 +1,11 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.otherReplacements = exports.eventMapping = exports.componentMapping = void 0;
 // mappings.js
-export const componentMapping = {
+var componentMapping = exports.componentMapping = {
   'div': 'View',
   'span': 'Text',
   'img': 'Image',
@@ -28,7 +34,7 @@ export const componentMapping = {
   'strong': 'Text',
   'em': 'Text'
 };
-export const eventMapping = {
+var eventMapping = exports.eventMapping = {
   'onClick': 'onPress',
   'onDoubleClick': 'onPress',
   'onMouseEnter': 'onPressIn',
@@ -42,7 +48,7 @@ export const eventMapping = {
   'onTouchEnd': 'onPressOut',
   'onTouchCancel': 'onPressOut'
 };
-export const otherReplacements = {
+var otherReplacements = exports.otherReplacements = {
   "import Link from 'next/link'": "import { Link } from 'expo-router'",
   'import Link from "next/link"': "import { Link } from 'expo-router'",
   "next/navigation": "expo-router",
