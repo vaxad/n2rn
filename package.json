@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "n2rn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package for converting next project to react native(expo) [wip]",
   "main": "dist/index.js", 
   "files": [
